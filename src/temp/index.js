@@ -20,8 +20,12 @@ export const testSFCTemp = `<template>
 `;
 
 export const testComponentSFCTemp = `<template>
-  <button>
+  <button @click="onClick">
     click me
   </button>
 </template>
+
+<script setup>
+  const onClick = () => alert('鸡你太美')
+</script>
 `;

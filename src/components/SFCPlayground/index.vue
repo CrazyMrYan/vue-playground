@@ -2,6 +2,10 @@
   <Repl 
     :store="store" 
     :editor="codemirror"
+    :editor-options="{
+      showErrorText: '显示错误',
+      autoSaveText: '自动保存',
+    }"
   />
 </template>
 
