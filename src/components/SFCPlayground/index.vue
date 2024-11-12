@@ -1,5 +1,4 @@
 <template>
-  <button @click="getFiles">getFiles</button>
   <Repl 
     :store="store" 
     :editor="codemirror"
@@ -21,9 +20,6 @@ onMounted(() => {
   })
 })
 
-const getFiles = () => {
-  console.log(store.getFiles());
-}
 </script>
 
 <style>
